@@ -9,4 +9,8 @@ public class Divisao{
         double resultado=op1/op2;
         return resultado;      
     }
+
+    public double calcula(String string, String string2) {
+        return 0;
+    }
 }

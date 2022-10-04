@@ -12,8 +12,7 @@ public class SomaTest {
         Soma s = new Soma();
         double resultado = s.calcularSoma(4, 4);
         assertEquals(8, resultado);
-    }
-    
+    }    
 
     @Test
     public void TesteDecimal() {

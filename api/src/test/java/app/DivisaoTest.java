@@ -1,27 +1,28 @@
 package app;
 
-import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
 
 public class DivisaoTest {
 
     @Test
-    public void verificarCasoBase(){
+    public void TesteDivisao () {
 
-        Divisao divisao = new Divisao();
-        double resultado = divisao.calcula("4","2");
-        assertEquals(2.0, resultado);
-
-    }
-
-    @Test
-    public void verificarDivisaoDouble(){
-
-        Divisao divisao = new Divisao();
-        double resultado = divisao.calcula("7", "2");
-        assertEquals(3.5, resultado);
-
+        Divisao s = new Divisao();
+        double resultado = s.calcularDivisao(4, 2);
+        assertEquals(2, resultado);
     }
     
+    
+
+    @Test
+    public void Teste() {
+
+        Divisao s = new Divisao();
+        double resultado = s.calcularDivisao(10, 5);
+        assertEquals(2, resultado);
+    }
+    
+
 }

@@ -14,7 +14,6 @@ public class DivisaoTest {
         assertEquals(2, resultado);
     }
     
-    
 
     @Test
     public void Teste() {

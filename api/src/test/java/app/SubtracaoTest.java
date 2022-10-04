@@ -10,7 +10,7 @@ public class SubtracaoTest {
     public void TesteSubtracao () {
 
         Subtracao s = new Subtracao();
-        double resultado = s.calcularSubtracao(9, 6);
+        double resultado = s.cacularSubtracao(9, 6);
         assertEquals(3, resultado);
     }
     
@@ -18,7 +18,7 @@ public class SubtracaoTest {
     public void TesteDecimal() {
 
         Subtracao s = new Subtracao();
-        double resultado = s.calcularSubtracao(6, 4.5);
+        double resultado = s.cacularSubtracao(6, 4.5);
         assertEquals(1.5, resultado);
     }
     

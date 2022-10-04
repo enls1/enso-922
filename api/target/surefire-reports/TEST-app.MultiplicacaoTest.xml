@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="app.MultiplicacaoTest" time="0.051" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspace/enso-922/api/target/test-classes:/workspace/enso-922/api/target/classes:/workspace/m2-repository/io/jooby/jooby-netty/2.15.1/jooby-netty-2.15.1.jar:/workspace/m2-repository/io/jooby/jooby/2.15.1/jooby-2.15.1.jar:/workspace/m2-repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/workspace/m2-repository/javax/inject/javax.inject/1/javax.inject-1.jar:/workspace/m2-repository/com/typesafe/config/1.4.2/config-1.4.2.jar:/workspace/m2-repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/workspace/m2-repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/workspace/m2-repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/workspace/m2-repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/workspace/m2-repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/workspace/m2-repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/workspace/m2-repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/workspace/m2-repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/workspace/m2-repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/workspace/m2-repository/io/jooby/jooby-test/2.15.1/jooby-test-2.15.1.jar:/workspace/m2-repository/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar:/workspace/m2-repository/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.21/kotlin-stdlib-1.6.21.jar:/workspace/m2-repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/home/gitpod/.sdkman/candidates/java/11.0.16.fx-zulu/lib"/>
+    <property name="sun.java.command" value="/workspace/enso-922/api/target/surefire/surefirebooter8495423777794874820.jar /workspace/enso-922/api/target/surefire 2022-10-04T20-34-18_966-jvmRun1 surefire1540245010385753215tmp surefire_03581245280894542462tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspace/enso-922/api/target/test-classes:/workspace/enso-922/api/target/classes:/workspace/m2-repository/io/jooby/jooby-netty/2.15.1/jooby-netty-2.15.1.jar:/workspace/m2-repository/io/jooby/jooby/2.15.1/jooby-2.15.1.jar:/workspace/m2-repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/workspace/m2-repository/javax/inject/javax.inject/1/javax.inject-1.jar:/workspace/m2-repository/com/typesafe/config/1.4.2/config-1.4.2.jar:/workspace/m2-repository/io/netty/netty-handler/4.1.77.Final/netty-handler-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-common/4.1.77.Final/netty-common-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-resolver/4.1.77.Final/netty-resolver-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-buffer/4.1.77.Final/netty-buffer-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-transport/4.1.77.Final/netty-transport-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-codec/4.1.77.Final/netty-codec-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-codec-http/4.1.77.Final/netty-codec-http-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-transport-native-epoll/4.1.77.Final/netty-transport-native-epoll-4.1.77.Final-linux-x86_64.jar:/workspace/m2-repository/io/netty/netty-transport-native-unix-common/4.1.77.Final/netty-transport-native-unix-common-4.1.77.Final.jar:/workspace/m2-repository/io/netty/netty-transport-classes-epoll/4.1.77.Final/netty-transport-classes-epoll-4.1.77.Final.jar:/workspace/m2-repository/ch/qos/logback/logback-classic/1.2.11/logback-classic-1.2.11.jar:/workspace/m2-repository/ch/qos/logback/logback-core/1.2.11/logback-core-1.2.11.jar:/workspace/m2-repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/workspace/m2-repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/workspace/m2-repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/workspace/m2-repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/workspace/m2-repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/workspace/m2-repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/workspace/m2-repository/io/jooby/jooby-test/2.15.1/jooby-test-2.15.1.jar:/workspace/m2-repository/com/squareup/okhttp3/okhttp/4.9.3/okhttp-4.9.3.jar:/workspace/m2-repository/com/squareup/okio/okio/2.8.0/okio-2.8.0.jar:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.0/kotlin-stdlib-common-1.4.0.jar:/workspace/m2-repository/org/jetbrains/kotlin/kotlin-stdlib/1.6.21/kotlin-stdlib-1.6.21.jar:/workspace/m2-repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/gitpod"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/home/gitpod/.sdkman/candidates/java/11.0.16.fx-zulu"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspace/enso-922/api"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.58+15-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/workspace/enso-922/api/target/surefire/surefirebooter8495423777794874820.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8-LTS"/>
+    <property name="user.name" value="gitpod"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-47-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.58+15-CA"/>
+    <property name="localRepository" value="/workspace/m2-repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="/workspace/enso-922/api"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.16+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="TesteMultiplicacao" classname="app.MultiplicacaoTest" time="0.031"/>
+  <testcase name="TesteDecimal" classname="app.MultiplicacaoTest" time="0.001"/>
+</testsuite>
